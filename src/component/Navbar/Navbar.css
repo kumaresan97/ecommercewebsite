@@ -1,0 +1,97 @@
+.navbar {
+  height: 60px;
+  background-color: indigo;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  font-size: 1.5rem;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.navlinks {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.navlink {
+  text-decoration: none;
+  color: white;
+}
+.logo {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  .logo {
+    display: flex;
+  }
+  .navlinks {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 58px;
+    left: -100%;
+    background-color: antiquewhite;
+    text-align: center;
+  }
+  .navlinks.active {
+    left: 0;
+  }
+  .navitem {
+    border-top: 2px solid white;
+    padding: 10px;
+  }
+  /* .navbar {
+    width: 100%;
+  } */
+  .navbar > form {
+    display: inline-block;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .navbar > form > input {
+    width: 90%;
+  }
+}
+.navbar form {
+  width: 30%;
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+}
+.navbar > form > input {
+  padding: 0 16px;
+  /* border-radius: 22px; */
+  background: none;
+  border: none;
+  outline: none;
+  /* position: relative; */
+}
+/* .navbar .iconbtn {
+  position: relative;
+  top: 0;
+  left: 124px;
+} */
+
+/* .badgebtn {
+  color: red !important;
+  font-size: 19px !important;
+  background: whitesmoke !important;
+} */
+.favicon {
+  color: whitesmoke !important;
+  font-size: 25px !important;
+  /* width: 20px !important;
+  height: 20px !important; */
+  /* background-color: none !important; */
+}
+.iconbtn {
+  padding-left: 130px !important;
+}

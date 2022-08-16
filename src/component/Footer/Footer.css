@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.footercontainer {
+  margin: 20px auto;
+  background-color: rgb(15, 9, 9);
+  width: 100%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.col {
+  width: 25%;
+  padding: 0 40px;
+}
+.col a {
+  text-decoration: none;
+  line-height: 2;
+  font-size: 13px;
+  color: white;
+  display: flex;
+}
+.col h4 {
+  font-size: 15px;
+  color: #878787;
+}
+.col a:hover {
+  text-decoration: underline;
+  font-size: 12px;
+  color: white;
+}

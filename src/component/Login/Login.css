@@ -1,0 +1,54 @@
+.log-input {
+  padding: 13px;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 84%;
+  outline: none;
+  border: none;
+  background: none;
+  border-bottom: 1px solid rgb(157, 214, 247);
+}
+.log-input:focus,
+label {
+  border-bottom-color: rgb(158, 97, 207);
+
+  transition: 0.5s ease-in;
+}
+.Loginpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.Login {
+  width: 350px;
+  height: 450px;
+  box-shadow: 2px 7px 10px 0;
+
+  padding: 30px;
+}
+.Login h5 {
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.logincontent {
+  margin-bottom: 30px;
+}
+.login-button {
+  margin-top: 40px;
+  text-align: center;
+}
+.login-button button {
+  padding: 10px;
+  width: 50%;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  color: white;
+  background-color: royalblue;
+  text-transform: capitalize;
+}
